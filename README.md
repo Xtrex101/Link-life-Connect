@@ -29,3 +29,36 @@ Execute the `main.py` file.
 ### Step 4: Access the Application
 
 Open your browser and navigate to `http://localhost:5000`.
+## Screenshots
+## Screenshots
+
+### Application Screenshots
+
+#### Home Page
+![Home Page](screenshots/home.png)
+
+#### Dashboard
+![Dashboard](screenshots/dashboard.png)
+
+#### User Profile
+![User Profile](screenshots/addingusers.png)
+
+### Data Visualization
+
+#### Graphical Reports
+![Graphical Reports](screenshots/search.png)
+
+#### Statistical Overview
+![Statistical Overview](screenshots/statistics.png)
+
+### Interface Examples
+
+#### Login Page
+![Login Page](screenshots/login.png)
+
+#### Settings
+![Settings](screenshots/home.png) <!-- Path to settings screenshot needed -->
+
+#### Notifications
+![Notifications](screenshots/dashboard.png) <!-- Path to notifications screenshot needed -->
+
