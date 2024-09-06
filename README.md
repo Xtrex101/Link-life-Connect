@@ -15,13 +15,13 @@
 
 This project utilizes a variety of technologies to create a comprehensive organ management DBMS system. The key technologies used include:
 
-- **MySQL**: Version 8 for database management, used to store and manage application data.
-- **HTML5**: The latest version of HTML, providing the structure and semantics for web pages.
-- **CSS**: For styling the web pages and creating a visually appealing user interface.
-- **Bootstrap**: A popular CSS framework for building responsive and mobile-first web designs quickly.
-- **JavaScript**: For adding interactivity and dynamic content to web pages.
-- **Python**: The programming language used for server-side logic and functionality.
-- **Flask**: A lightweight Python web framework used to build the web application and handle routing and requests.
+- **MySQL**: Version 8
+- **HTML5**
+- **CSS**
+- **Bootstrap**
+- **JavaScript**
+- **Python**
+- **Flask**
 
 Each of these technologies contributes to the functionality, performance, and aesthetics of the project, ensuring a seamless user experience.
 
