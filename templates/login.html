@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <style>
+        body {
+            /* Set the background image */
+            position: relative;
+            height: 100vh; /* Using viewport height for full height */
+            margin: 0; /* Remove default margin */
+        }
+
+        body::before {
+            /* Create a pseudo-element for the background */
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url('/static/image-from-rawpixel-id-2292405-jpeg.jpg'); /* Update to your image file name */
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            filter: blur(5px); /* Adjust the blur intensity as needed */
+            z-index: -1; /* Place the pseudo-element behind other content */
+        }
+
+        .jumbotron {
+            background-color: rgba(255, 255, 255, 0.8); /* Add a semi-transparent background to the jumbotron */
+        }
+
+        .display-heading {
+            font-family: 'Arial', sans-serif; /* Update to your preferred font-family */
+            font-size: 3em; /* Adjust the font size as needed */
+            font-smooth: always; /* Enhance smoothness on some browsers */
+        }
+    </style>
+</head>
+
+<body>
+    <div class="jumbotron">
+        <center>
+            <h1 class="display-4 display-heading">Life Link Connect</h1>
+        </center>
+    </div>
+    <form class="container" action="/login" method="POST">
+        <div class="form-group">
+            <label>Username</label>
+            <input name="username" type="text" class="form-control" id="inputUsername" aria-describedby="emailHelp"
+                placeholder="Enter username">
+        </div>
+        <div class="form-group">
+            <label>Password</label>
+            <input name="password" type="password" class="form-control" id="inputPassword" placeholder="Password">
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+</body>
+
+</html>
